@@ -187,7 +187,8 @@ export default {
       } else {
         return false
       }
-    }
+    },
+    handleCommand (command) {}
   },
   mounted () {
     let tabs = JSON.parse(sessionStorage.getItem('mainPageTabs'))
