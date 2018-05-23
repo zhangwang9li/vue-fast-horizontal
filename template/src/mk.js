@@ -1,4 +1,7 @@
 const mkTree = (data) => {
+  if (!data) {
+    return
+  }
   data.map(item => {
     item.pid = item.mkid.substring(0, item.mkid.length - 2)
     if (item.zj) {

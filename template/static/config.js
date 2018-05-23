@@ -2,14 +2,6 @@ var config = {
   ip: 'http://211.101.37.245:9003',
   pageSizes: [10, 15, 20, 30],
   pageSize: 10,
-  yjxxList: [
-    {code: '1', name: '前防撞警告', valuskey: 'fcw', PRI: 0, icon: 'icon-cheliangpengzhuang', color: '#316ddb'},
-    {code: '0', name: '超速预警', valuskey: 'sdw', PRI: 1, icon: 'icon-chaosu', color: '#6ecdf5'},
-    {code: '1', name: '车道偏离预警', valuskey: 'ldw', PRI: 2, icon: 'icon-chedaopianli', color: '#289cdc'},
-    {code: '1', name: '行人避撞', valuskey: 'pcw', PRI: 3, icon: 'icon-hangren', color: '#ef001e'},
-    {code: '2', name: '车距监测与警示', valuskey: 'hwl', PRI: 4, icon: 'icon-chejujiance', color: '#fb9b00'},
-    {code: '1', name: '城市车距离监测', valuskey: 'ufcw', PRI: 5, icon: 'icon-baoxiangang', color: '#d56628'}
-  ],
   chunk: function (arr, len) {
     len = parseInt(len)
     var groups = []

@@ -43,7 +43,7 @@
       </div>
     </div>
     <footer class="login-footer">
-      <span>版权所有：北京恒达时讯科技股份有限公司</span>
+      <span>版权所有：xxxxxxxx公司</span>
     </footer>
   </div>
 </template>
