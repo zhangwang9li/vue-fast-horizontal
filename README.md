@@ -1,7 +1,6 @@
 # vue-fast-horizontal
-# webpack Project template
 
-> Fast building this project use Vue 2.0 + Webpack + `vue-loader` .Project address:https://github.com/zhangwang9li/vue-simple
+> Fast building this project use Vue 2.0 + Webpack + `vue-loader` .Project address:https://github.com/zhangwang9li/vue-fast-horizontal
 
 > If there is a new requirement, please ask at Github
 
@@ -12,6 +11,8 @@ Use templates need to be installed [vue-cli](https://github.com/vuejs/vue-cli).
 ``` bash
 $ npm install -g vue-cli
 $ vue init zhangwang9li/vue-fast-horizontal my-project
+Not recommended for use "unit" "e2e" "test"
+
 $ cd my-project
 $ npm install
 $ npm run dev
